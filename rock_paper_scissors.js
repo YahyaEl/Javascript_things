@@ -1,6 +1,6 @@
-/***** first javascript program *******/
+/***** first javascript program: rock_paper_Scissors *******/
 var userChoice = prompt("Do you choose rock, paper or scissors?");
-var computerChoice = Math.random();
+var computerChoice = Math.random();// Math.random gives a random number btw 0 and 1
 if (computerChoice < 0.34) {
 	computerChoice = "rock";
 } else if(computerChoice <= 0.67) {
